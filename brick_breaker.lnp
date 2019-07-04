@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "adc.o" "button.o" "game.o" "glcd_spi_lpc1700.o" "led.o" "retarget.o" "rit.o" "rtx_conf_cm.o" "serial.o" "uart.o" "system_lpc17xx.o" 
+C:\Software\Keil\ARM\RV31\LIB\RTX_CM3.LIB --strict --scatter "brick_breaker.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\brick_breaker.map" -o brick_breaker.axf
